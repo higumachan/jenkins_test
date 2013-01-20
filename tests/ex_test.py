@@ -1,6 +1,11 @@
 #coding: utf-8
 
 from nose.tools import ok_, eq_
+import sys
+import os
+
+sys.path.append("..");
+
 import ex
 
 def add_test():
