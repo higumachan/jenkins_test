@@ -12,4 +12,6 @@ def sub_test():
     eq_(ex.sub(2, 1), 1);
     eq_(ex.sub(1, 2), -1);
 
+def sub_test2():
+    eq_(ex.sub(2, 100), 100);
 
